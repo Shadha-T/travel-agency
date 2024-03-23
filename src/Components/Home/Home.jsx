@@ -46,7 +46,7 @@ useEffect(()=>{
     </div>
     <div data-aos="fade-Up" className='cardDiv grid'>
         <div className='destinationInput'>
-            <label htmlFor='city'>Search Your Destination</label>
+            <label htmlFor='city' id="hai">Search Your Destination</label>
             <div className='input flex'>
                 <input type='text' placeholder='Enter name here...'/>
                 <CiLocationOn  className="icon"/>

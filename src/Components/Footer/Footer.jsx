@@ -1,6 +1,8 @@
 import './Footer.css'
-import { FiSend } from "react-icons/fi";
-import video2 from '../../assets/video2.mp4'
+// import { FiSend } from "react-icons/fi";
+import { IoIosSend } from "react-icons/io";
+import video3 from '../../assets/video3.mp4'
+
 import { MdTravelExplore } from "react-icons/md";
 import { FaTwitter } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
@@ -22,7 +24,7 @@ function Footer(){
         <>
         <section className='footer'>
             <div className='videoDiv'>
-                <video src={video2} loop autoplay muted type="video/mp4"></video>
+                <video src={video3} loop autoplay muted type="video/mp4"></video>
             </div>
             <div className='setContent container'>
                 <div className='contactDiv flex'>
@@ -33,7 +35,7 @@ function Footer(){
                     <div className='inputDiv flex'>
                         <input data-aos="fadeUp"  type='text' placeholder='enter email address'/>
                         <button data-aos="fadeUp"   className='btn flex' type='submit'>
-                        send<FiSend  className='icon'/>
+                   Send    < IoIosSend className='icon'/>
                         </button>
                     </div>
 
@@ -46,9 +48,9 @@ function Footer(){
                         </a>
                         </div> 
                         <div data-aos="fadeUp"  className='footerParagraph'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> Aspernatur repudiandae,
-                             quo pariatur dicta,<br/> dolorum consectetur, veritatis alias
-                             itaque temporibus excepturi obcaecati <br/>quisquam id culpa labore delectus quas ducimus est esse?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur repudiandae,
+                             quo pariatur dicta, dolorum consectetur, veritatis alias
+                             itaque temporibus excepturi obcaecati quisquam id culpa labore delectus quas ducimus est esse?
 
                         </div>
                        <div data-aos="fadeUp"  className='footerSocials'>

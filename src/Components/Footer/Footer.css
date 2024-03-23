@@ -75,7 +75,7 @@
       /* padding: .5rem; */
       flex-direction: column;
 
-      .input{
+      input{
         width: 100%;
         padding: .5rem .6rem;
         border-radius: 3rem;
@@ -98,7 +98,7 @@
 
 
         .icon{
-          font-size: .18px;
+          font-size: 18px;
         }
 
 
@@ -219,7 +219,7 @@
 
 @media screen and (min-width:500px){
   .footer{
-    .secContent{
+    .setContent{
       .footerCard{
         .footerLinks{
           grid-template-columns: repeat(3,1fr);
@@ -228,7 +228,7 @@
         .footerDiv{
           justify-content: space-between;
           flex-direction: row;
-          .small{
+          small{
             font-size: 14px;
             color: var(--whiteColor);
           }
@@ -242,7 +242,7 @@
 
 @media screen and (min-width:660px){
   .footer{
-    .secContent{
+    .setContent{
       .contactDiv{
         flex-direction: row;
         justify-content: space-between;
@@ -253,7 +253,7 @@
           justify-content: flex-start;
 
 
-          .input{
+          input{
             width: 60%;
 
           }
@@ -271,12 +271,12 @@
 @media screen and (min-width:840px){
   .footer{
     padding: 5rem 0;
-    .secContent{
+    .setContent{
       .footerCard{
         flex-direction: row;
 
         .footerLinks{
-          grid-template-columns: repeat(3,ifr);
+          grid-template-columns: repeat(3,1fr);
           padding-bottom: 1rem;
         }
       }
